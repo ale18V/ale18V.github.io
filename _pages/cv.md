@@ -121,7 +121,7 @@ description:
         </div>
       </article>
       <article class="cv-card-entry">
-        <div><span class="cv-badge">2x</span></div>
+        <div><span class="cv-badge">2023 - 2024</span></div>
         <div>
           <h4>Merit Study Award</h4>
           <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> University of Bologna</p>
