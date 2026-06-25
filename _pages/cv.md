@@ -126,7 +126,7 @@ description:
           <h4>Merit Study Award</h4>
           <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> University of Bologna</p>
           <ul>
-            <li>Two-time recipient.</li>
+            <li>Awarded to the top 2 students out of approximately 150 in the Computer Engineering degree.</li>
           </ul>
         </div>
       </article>
