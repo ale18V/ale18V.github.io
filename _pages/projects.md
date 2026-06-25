@@ -18,10 +18,10 @@ nav_order: 3
       </div>
     </li>
     <li class="project-item">
-      <div class="project-name">Apertus Post-Training</div>
+      <div class="project-name"><a href="{{ '/projects/blindtasks/' | relative_url }}">BlindTasks</a></div>
       <div class="project-description">
-        Reinforcement-learning environment for vision post-training of Apertus, developed within the Swiss AI Initiative.
-        <span class="project-links"><a href="https://apertus.org/">Apertus</a></span>
+        Reinforcement-learning environment for vision-language post-training, developed within the Swiss AI Initiative.
+        <span class="project-links"><a href="{{ '/assets/pdf/BlindTasks_Report.pdf' | relative_url }}">Report</a></span>
       </div>
     </li>
     <li class="project-item">
@@ -38,7 +38,7 @@ nav_order: 3
       </div>
     </li>
     <li class="project-item">
-      <div class="project-name"><a href="https://huggingface.co/cs-552-2026-moritalians/math_model">Qwen Math</a></div>
+      <div class="project-name"><a href="https://huggingface.co/cs-552-2026-moritalians/math_model">MathQwen</a></div>
       <div class="project-description">
         Qwen3-1.7B fine-tuned with SFT and reinforcement learning for mathematical reasoning.
         <span class="project-links"><a href="https://huggingface.co/cs-552-2026-moritalians/math_model">Hugging Face</a></span>
@@ -72,24 +72,10 @@ nav_order: 3
       </div>
     </li>
     <li class="project-item">
-      <div class="project-name">Distributed Algorithms</div>
-      <div class="project-description">
-        Perfect links, FIFO uniform reliable broadcast, and lattice agreement implemented for EPFL CS-451.
-        Repository currently private.
-      </div>
-    </li>
-    <li class="project-item">
       <div class="project-name"><a href="https://github.com/ale18V/Fitcker">Fitcker</a></div>
       <div class="project-description">
         React Native workout and personal-record tracker with a containerized backend.
         <span class="project-links"><a href="https://github.com/ale18V/Fitcker">GitHub</a></span>
-      </div>
-    </li>
-    <li class="project-item">
-      <div class="project-name"><a href="https://github.com/ale18V/HPL">Construction Project Choices</a></div>
-      <div class="project-description">
-        Interactive React application built for an EPFL SHS course.
-        <span class="project-links"><a href="https://github.com/ale18V/HPL">GitHub</a></span>
       </div>
     </li>
   </ul>
@@ -99,14 +85,14 @@ nav_order: 3
   <h2 class="section-title">Hackathons</h2>
   <ul class="project-list">
     <li class="project-item">
-      <div class="project-name"><a href="https://github.com/ale18V/ZKTicket">ZKTicket</a></div>
+      <div class="project-name"><a href="https://github.com/ale18V/ZKTicket">ZKTicket — LauzHack 2025</a></div>
       <div class="project-description">
-        Privacy-preserving ticketing proof of concept using WebAuthn credentials, built at LauzHack 2025.
+        Privacy-preserving ticketing proof of concept using WebAuthn credentials.
         <span class="project-links"><a href="https://github.com/ale18V/ZKTicket">GitHub</a></span>
       </div>
     </li>
     <li class="project-item">
-      <div class="project-name"><a href="https://github.com/AndreaBissoli/SUI-Hackathon">Bright Futures</a></div>
+      <div class="project-name"><a href="https://github.com/AndreaBissoli/SUI-Hackathon">Bright Futures — SUI BSA Hackathon 2025</a></div>
       <div class="project-description">
         Decentralized education financing using Sui smart contracts and Walrus storage; $1,000 prize.
         <span class="project-links"><a href="https://github.com/AndreaBissoli/SUI-Hackathon">GitHub</a></span>
@@ -150,25 +136,6 @@ nav_order: 3
       <div class="project-name">CyberChallenge.IT 2023</div>
       <div class="project-description">
         University of Bologna team member; top-eight finish at the national attack/defense finals.
-      </div>
-    </li>
-  </ul>
-</section>
-
-<section class="project-group">
-  <h2 class="section-title">Tools</h2>
-  <ul class="project-list">
-    <li class="project-item">
-      <div class="project-name">MidiLibrary</div>
-      <div class="project-description">
-        C++ library translating MIDI piano input into Windows keyboard events. Repository currently private.
-      </div>
-    </li>
-    <li class="project-item">
-      <div class="project-name"><a href="https://github.com/ale18V/Anki-Multiple-Choice">Anki Multiple Choice</a></div>
-      <div class="project-description">
-        Customizable HTML, CSS, and JavaScript templates for multiple-choice cards in Anki.
-        <span class="project-links"><a href="https://github.com/ale18V/Anki-Multiple-Choice">GitHub</a></span>
       </div>
     </li>
   </ul>

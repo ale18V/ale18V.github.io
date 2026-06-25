@@ -4,7 +4,11 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - ale18V/BanditDL
   - ale18V/FedChain
-  - ale18V/SUI-Hackathon
   - ale18V/AGN-Compiler
+  - ale18V/TL2
   - ale18V/CudaStonks
+  - ale18V/Fitcker
+  - ale18V/ZKTicket
+  - ale18V/CTF-Challenges
