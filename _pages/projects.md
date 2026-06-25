@@ -25,10 +25,10 @@ nav_order: 3
       </div>
     </li>
     <li class="project-item">
-      <div class="project-name"><a href="https://github.com/ale18V/FedChain">FedChain</a></div>
+      <div class="project-name"><a href="{{ '/projects/fedchain/' | relative_url }}">FedChain</a></div>
       <div class="project-description">
         Bachelor thesis: proof-of-stake blockchain supporting secure federated learning.
-        <span class="project-links"><a href="https://github.com/ale18V/FedChain">GitHub</a></span>
+        <span class="project-links"><a href="{{ '/assets/pdf/FedChain_Thesis.pdf' | relative_url }}">Report</a> · <a href="https://github.com/ale18V/FedChain">GitHub</a></span>
       </div>
     </li>
     <li class="project-item">
