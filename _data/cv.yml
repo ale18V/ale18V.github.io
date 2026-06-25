@@ -4,7 +4,7 @@ cv:
   email: alebombarda@icloud.com
   location: Lausanne, Switzerland
   image: ""
-  summary: Computer Science MSc student at EPFL and Excellence Fellowship recipient, with projects in federated learning, blockchain systems, cybersecurity, compilers, and machine learning.
+  summary: Computer Science MSc student at EPFL working on distributed systems, machine learning infrastructure, and security.
 
   social_networks:
     - network: GitHub
@@ -22,7 +22,7 @@ cv:
         end_date: 2027-09
         score: 5.7/6
         highlights:
-          - Awarded MSc Excellence Fellowship.
+          - EPFL Excellence Fellowship.
 
       - institution: University of Bologna
         location: Bologna, Italy
@@ -33,7 +33,6 @@ cv:
         score: 29.38/30
         highlights:
           - Graduated with 110/110 cum laude.
-          - Awarded two merit scholarships.
 
       - institution: University of California, Riverside
         location: Riverside, CA, USA
@@ -44,15 +43,20 @@ cv:
         score: 3.95/4.0
 
     Experience:
+      - company: Bending Spoons
+        position: Incoming Software Engineer Intern
+        location: Milan, Italy
+        start_date: 2026-07
+        end_date: 2026-09
+
       - company: Asclepyus
-        position: Python Software Engineer
+        position: Research Engineer
         location: Remote
         start_date: 2025-04
         end_date: 2025-11
         highlights:
-          - Architected and delivered a federated learning platform from zero to production-ready state using RabbitMQ, gRPC, and REST APIs.
-          - Integrated observability with Grafana, Prometheus, and Loki to track training performance and system health.
-          - Established CI/CD with GitHub Actions and published Docker containers to GHCR.
+          - Led development of a production-ready federated learning platform for hospitals.
+          - Designed its microservice architecture, observability stack, and CI/CD delivery.
 
       - company: Polarity
         position: Full Stack Engineer
@@ -60,59 +64,32 @@ cv:
         start_date: 2024-08
         end_date: 2025-02
         highlights:
-          - Built a React Native mobile app for a non-custodial cryptocurrency wallet with OTC trades and on-chain payments.
-          - Developed a React frontend for a cryptocurrency payment processor, including trade and swap order flows.
-          - Coordinated with clients to refine functional and design requirements.
+          - Built React Native and React products for a non-custodial wallet and cryptocurrency payment processor.
 
-    Projects:
-      - name: Blockchain-Based Federated Learning System
-        summary: Bachelor thesis project researching and implementing a proof-of-stake blockchain for federated learning.
-        url: https://github.com/ale18V/FedChain
-        highlights:
-          - Implemented a peer-to-peer network with bidirectional gRPC.
-          - Engineered a proof-of-stake consensus mechanism resilient to malicious updates.
-          - Secured message integrity with asymmetric cryptography and trained models with PyTorch.
-
-      - name: Cybersecurity Tutor and Competitor
-        summary: CTF competitor and tutor with CyberChallenge.IT, UliSSE, OliCyber.IT, and EPFL polygl0ts.
-        highlights:
-          - Qualified for the University of Bologna CyberChallenge.IT 2023 team and placed top 8 nationally.
-          - Authored problems for PascalCTF25/26, UlisseCTF25, and LakeCTF25.
-          - Compete in CyberCup.IT and weekly CTF events with EPFL polygl0ts.
-
-      - name: SUI Blockchain Hackathon
-        summary: EPFL hackathon project for decentralized education-funding agreements.
-        url: https://github.com/ale18V/SUI-Hackathon
-        highlights:
-          - Won a $1,000 prize out of 50+ teams.
-          - Built smart contracts and a web frontend for equity tokens, scheduled payouts, and dividend sharing.
-
-      - name: AGN Compiler
-        summary: Compiler for a C-like programming language.
-        url: https://github.com/ale18V/AGN-Compiler
-        highlights:
-          - Implemented lexical analysis with Flex and parsing with Bison.
-
-      - name: Stock Price Predictor
-        summary: GPU programming class project implementing and accelerating a neural stock predictor.
-        url: https://github.com/ale18V/CudaStonks
-        highlights:
-          - Implemented the neural network in NumPy and PyTorch.
-          - Ported the algorithm to CUDA with Python Numba, reaching approximately 3x speedup over CPU.
-
-      - name: Parkinson's Disease Detector
-        summary: Audio classification project at EPFL LiGHT Laboratory.
-        highlights:
-          - Designed a transformer-based pipeline for Parkinson's disease detection from vowel phonation.
-          - Reached approximately 75% ROC-AUC on the mPower dataset, outperforming a CNN baseline by 15%.
+    Awards:
+      - title: First Ascent
+        date: 2026
+        awarder: Bending Spoons
+      - title: EPFL Excellence Fellowship
+        date: 2025
+        awarder: École Polytechnique Fédérale de Lausanne
+      - title: "$1,000 Prize, Sui Blockchain Hackathon"
+        date: 2025
+        awarder: EPFL
+      - title: Merit Study Award
+        awarder: University of Bologna
+        summary: Two-time recipient.
+      - title: Top 8, CyberChallenge.IT National Finals
+        date: 2023
+        awarder: University of Bologna Team
 
     Skills:
       - name: Programming Languages
-        keywords: Go, Python, Java, C/C++, JavaScript, TypeScript, PHP, SQL, Bash, Solidity, Move
-      - name: Tools and Frameworks
-        keywords: Git, GitHub, Linux, Docker, Web3, FastAPI, Flask, React, Vite, React Native, OpenAPI, gRPC, MySQL
+        keywords: Go, Python, Java, C/C++, JavaScript, TypeScript, SQL, Bash, Solidity, Move
+      - name: Tools
+        keywords: Linux, Docker, FastAPI, React, PyTorch, gRPC, RabbitMQ, GitHub Actions
       - name: Areas
-        keywords: Blockchain, federated learning, machine learning, cybersecurity, penetration testing, compilers, operating systems, network protocols
+        keywords: Distributed systems, machine learning, blockchain, cybersecurity, compilers
 
     Languages:
       - name: Italian
@@ -121,7 +98,3 @@ cv:
         summary: Cambridge C1
       - name: French
         summary: A2
-
-    Affiliations:
-      - name: EPFL Blockchain Student Association
-      - name: EPFL Cybersecurity Team, polygl0ts

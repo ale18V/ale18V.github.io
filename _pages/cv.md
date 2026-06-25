@@ -19,6 +19,7 @@ description:
   <dd>Lausanne, Switzerland</dd>
   <dt>Links</dt>
   <dd>
+    <a href="https://ale18v.github.io/">Website</a> ·
     <a href="https://github.com/ale18V">GitHub</a> ·
     <a href="https://www.linkedin.com/in/alessandrobombarda/">LinkedIn</a>
   </dd>
@@ -33,7 +34,7 @@ description:
       <p class="institution"><a href="https://www.epfl.ch/">EPFL</a>, Lausanne</p>
       <ul>
         <li>Current GPA: 5.7/6.</li>
-        <li>Awarded the EPFL Excellence Fellowship.</li>
+        <li>EPFL Excellence Fellowship.</li>
       </ul>
     </div>
   </section>
@@ -43,8 +44,7 @@ description:
       <h3>BSc Computer Engineering</h3>
       <p class="institution"><a href="https://www.unibo.it/">University of Bologna</a></p>
       <ul>
-        <li>Graduated with 110/110 cum laude; GPA 29.38/30.</li>
-        <li>Awarded two merit scholarships.</li>
+        <li>110/110 cum laude; GPA 29.38/30.</li>
       </ul>
     </div>
   </section>
@@ -63,14 +63,20 @@ description:
 <h2 class="section-title">Experience</h2>
 <div class="cv-list">
   <section class="cv-entry">
+    <div class="cv-date">2026</div>
+    <div>
+      <h3>Incoming Software Engineer Intern</h3>
+      <p class="institution">Bending Spoons · Milan, Italy</p>
+    </div>
+  </section>
+  <section class="cv-entry">
     <div class="cv-date">2025</div>
     <div>
-      <h3>Python Software Engineer</h3>
+      <h3>Research Engineer</h3>
       <p class="institution">Asclepyus · Remote</p>
       <ul>
-        <li>Architected a production-ready federated learning platform using RabbitMQ, gRPC, and REST APIs.</li>
-        <li>Integrated Grafana, Prometheus, and Loki for training and system observability.</li>
-        <li>Established CI/CD and multi-service Docker delivery through GitHub Actions and GHCR.</li>
+        <li>Led development of a production-ready federated learning platform for hospitals.</li>
+        <li>Designed its microservice architecture, observability stack, and CI/CD delivery.</li>
       </ul>
     </div>
   </section>
@@ -81,54 +87,46 @@ description:
       <p class="institution">Polarity · Reggio Emilia, Italy</p>
       <ul>
         <li>Built React Native and React products for a non-custodial wallet and cryptocurrency payment processor.</li>
-        <li>Implemented OTC trade, swap, and on-chain payment flows.</li>
       </ul>
     </div>
   </section>
 </div>
 
-<h2 class="section-title">Selected Projects & Activities</h2>
+<h2 class="section-title">Honors & Awards</h2>
 <div class="cv-list">
   <section class="cv-entry">
-    <div class="cv-date">2024</div>
+    <div class="cv-date">2026</div>
     <div>
-      <h3>Blockchain-Based Federated Learning System</h3>
-      <p class="institution">Bachelor Thesis · <a href="https://github.com/ale18V/FedChain">GitHub</a></p>
-      <ul>
-        <li>Designed a proof-of-stake blockchain with bidirectional gRPC networking and cryptographic message integrity.</li>
-        <li>Evaluated resilience to malicious federated learning updates using PyTorch.</li>
-      </ul>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2023 – today</div>
-    <div>
-      <h3>Cybersecurity Competitor, Author & Tutor</h3>
-      <p class="institution">CyberChallenge.IT, UliSSE, OliCyber.IT, EPFL polygl0ts</p>
-      <ul>
-        <li>Placed top 8 nationally with the University of Bologna CyberChallenge.IT team.</li>
-        <li>Authored challenges for PascalCTF, UlisseCTF, and LakeCTF.</li>
-      </ul>
+      <h3>First Ascent</h3>
+      <p class="institution">Bending Spoons</p>
     </div>
   </section>
   <section class="cv-entry">
     <div class="cv-date">2025</div>
     <div>
-      <h3>SUI Blockchain Hackathon</h3>
-      <p class="institution"><a href="https://github.com/ale18V/SUI-Hackathon">GitHub</a></p>
-      <ul>
-        <li>Won a $1,000 prize out of more than 50 teams.</li>
-      </ul>
+      <h3>EPFL Excellence Fellowship</h3>
+      <p class="institution">École Polytechnique Fédérale de Lausanne</p>
     </div>
   </section>
   <section class="cv-entry">
-    <div class="cv-date">2026</div>
+    <div class="cv-date">2025</div>
     <div>
-      <h3>Parkinson's Disease Detector</h3>
-      <p class="institution">EPFL LiGHT Laboratory</p>
-      <ul>
-        <li>Built a transformer-based audio classifier reaching approximately 75% ROC-AUC on mPower.</li>
-      </ul>
+      <h3>$1,000 Prize, Sui Blockchain Hackathon</h3>
+      <p class="institution">EPFL</p>
+    </div>
+  </section>
+  <section class="cv-entry">
+    <div class="cv-date">2×</div>
+    <div>
+      <h3>Merit Study Award</h3>
+      <p class="institution">University of Bologna</p>
+    </div>
+  </section>
+  <section class="cv-entry">
+    <div class="cv-date">2023</div>
+    <div>
+      <h3>Top 8, CyberChallenge.IT National Finals</h3>
+      <p class="institution">University of Bologna Team</p>
     </div>
   </section>
 </div>
