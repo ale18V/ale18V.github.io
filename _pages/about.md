@@ -1,33 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image:
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Lausanne, Switzerland</p>
-    <p>EPFL MSc Computer Science</p>
-
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+subtitle: MSc Computer Science @ EPFL
+profile: false
+selected_papers: false
+social: true
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Computer Science MSc student at EPFL and an Excellence Fellowship recipient. My work is centered on distributed systems, security, and machine learning, with recent projects in federated learning infrastructure, blockchain systems, CTF cybersecurity, compilers, and applied audio classification.
+<h2 class="intro-heading">Hi, there!</h2>
 
-Before EPFL, I completed a BSc in Computer Engineering at the University of Bologna with 110/110 cum laude and spent an exchange semester at UC Riverside. I have worked as a Python Software Engineer on federated learning systems and as a Full Stack Engineer on cryptocurrency wallet and payment products.
+I am a Master's student in Computer Science at [EPFL](https://www.epfl.ch/), where I was awarded an Excellence Fellowship. I previously earned a Bachelor's degree in Computer Engineering at the [University of Bologna](https://www.unibo.it/) and spent an exchange semester at the University of California, Riverside.
 
-I am currently interested in research assistant opportunities around systems, ML infrastructure, security, and decentralized protocols.
+My interests lie at the intersection of **distributed systems, machine learning infrastructure, cybersecurity, and decentralized protocols**. I have worked on production federated learning systems, blockchain consensus, CTF security, compilers, and applied audio classification.
+
+I am currently looking for research opportunities where I can combine systems engineering with rigorous experimental work.
+
+<p class="intro-links">
+  Here you can find my <a href="{{ '/cv/' | relative_url }}">CV</a> and my
+  <a href="{{ '/projects/' | relative_url }}">projects</a>.
+</p>

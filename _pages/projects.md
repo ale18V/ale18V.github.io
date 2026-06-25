@@ -1,65 +1,66 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected research, engineering, and security work.
 nav: true
 nav_order: 3
-display_categories:
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<section class="project-group">
+  <h2 class="section-title">Research & Systems</h2>
+  <ul class="project-list">
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/fedchain/' | relative_url }}">FedChain</a></div>
+      <div class="project-description">
+        Proof-of-stake blockchain for secure federated learning, with bidirectional gRPC networking and malicious-update resilience.
+        <span class="project-links"><a href="https://github.com/ale18V/FedChain">GitHub</a></span>
+      </div>
+    </li>
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/sui-hackathon/' | relative_url }}">SUI Hackathon</a></div>
+      <div class="project-description">
+        Prize-winning decentralized education-funding agreements with equity tokens, scheduled payouts, and dividend sharing.
+        <span class="project-links"><a href="https://github.com/ale18V/SUI-Hackathon">GitHub</a></span>
+      </div>
+    </li>
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/agn-compiler/' | relative_url }}">AGN Compiler</a></div>
+      <div class="project-description">
+        Compiler for a C-like language implemented with Flex and Bison.
+        <span class="project-links"><a href="https://github.com/ale18V/AGN-Compiler">GitHub</a></span>
+      </div>
+    </li>
+  </ul>
+</section>
 
-{% else %}
+<section class="project-group">
+  <h2 class="section-title">Machine Learning</h2>
+  <ul class="project-list">
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/parkinsons-detector/' | relative_url }}">Parkinson's Detector</a></div>
+      <div class="project-description">
+        Transformer-based audio classifier for Parkinson's detection from vowel phonation, developed at EPFL LiGHT Laboratory.
+      </div>
+    </li>
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/cuda-stonks/' | relative_url }}">CUDA Stonks</a></div>
+      <div class="project-description">
+        Neural stock predictor implemented in NumPy and PyTorch, then accelerated with CUDA through Numba.
+        <span class="project-links"><a href="https://github.com/ale18V/CudaStonks">GitHub</a></span>
+      </div>
+    </li>
+  </ul>
+</section>
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+<section class="project-group">
+  <h2 class="section-title">Cybersecurity</h2>
+  <ul class="project-list">
+    <li class="project-item">
+      <div class="project-name"><a href="{{ '/projects/cybersecurity/' | relative_url }}">CTF Competition & Tutoring</a></div>
+      <div class="project-description">
+        CyberChallenge.IT finalist, EPFL polygl0ts competitor, challenge author, and OliCyber.IT tutor.
+      </div>
+    </li>
+  </ul>
+</section>
