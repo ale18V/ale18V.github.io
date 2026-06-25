@@ -1,0 +1,10 @@
+github_users:
+  - ale18V
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ale18V/FedChain
+  - ale18V/SUI-Hackathon
+  - ale18V/AGN-Compiler
+  - ale18V/CudaStonks

@@ -1,0 +1,127 @@
+cv:
+  name: Alessandro Bombarda
+  label: Computer Science MSc student at EPFL
+  email: alebombarda@icloud.com
+  location: Lausanne, Switzerland
+  image: ""
+  summary: Computer Science MSc student at EPFL and Excellence Fellowship recipient, with projects in federated learning, blockchain systems, cybersecurity, compilers, and machine learning.
+
+  social_networks:
+    - network: GitHub
+      username: ale18V
+    - network: LinkedIn
+      username: alessandrobombarda
+
+  sections:
+    Education:
+      - institution: École Polytechnique Fédérale de Lausanne (EPFL)
+        location: Lausanne, Switzerland
+        area: Computer Science
+        studyType: MSc
+        start_date: 2025-09
+        end_date: 2027-09
+        score: 5.7/6
+        highlights:
+          - Awarded MSc Excellence Fellowship.
+
+      - institution: University of Bologna
+        location: Bologna, Italy
+        area: Computer Engineering
+        studyType: BSc
+        start_date: 2021-09
+        end_date: 2024-11
+        score: 29.38/30
+        highlights:
+          - Graduated with 110/110 cum laude.
+          - Awarded two merit scholarships.
+
+      - institution: University of California, Riverside
+        location: Riverside, CA, USA
+        area: Computer Science
+        studyType: Exchange Student
+        start_date: 2024-01
+        end_date: 2024-07
+        score: 3.95/4.0
+
+    Experience:
+      - company: Asclepyus
+        position: Python Software Engineer
+        location: Remote
+        start_date: 2025-04
+        end_date: 2025-11
+        highlights:
+          - Architected and delivered a federated learning platform from zero to production-ready state using RabbitMQ, gRPC, and REST APIs.
+          - Integrated observability with Grafana, Prometheus, and Loki to track training performance and system health.
+          - Established CI/CD with GitHub Actions and published Docker containers to GHCR.
+
+      - company: Polarity
+        position: Full Stack Engineer
+        location: Reggio Emilia, Italy
+        start_date: 2024-08
+        end_date: 2025-02
+        highlights:
+          - Built a React Native mobile app for a non-custodial cryptocurrency wallet with OTC trades and on-chain payments.
+          - Developed a React frontend for a cryptocurrency payment processor, including trade and swap order flows.
+          - Coordinated with clients to refine functional and design requirements.
+
+    Projects:
+      - name: Blockchain-Based Federated Learning System
+        summary: Bachelor thesis project researching and implementing a proof-of-stake blockchain for federated learning.
+        url: https://github.com/ale18V/FedChain
+        highlights:
+          - Implemented a peer-to-peer network with bidirectional gRPC.
+          - Engineered a proof-of-stake consensus mechanism resilient to malicious updates.
+          - Secured message integrity with asymmetric cryptography and trained models with PyTorch.
+
+      - name: Cybersecurity Tutor and Competitor
+        summary: CTF competitor and tutor with CyberChallenge.IT, UliSSE, OliCyber.IT, and EPFL polygl0ts.
+        highlights:
+          - Qualified for the University of Bologna CyberChallenge.IT 2023 team and placed top 8 nationally.
+          - Authored problems for PascalCTF25/26, UlisseCTF25, and LakeCTF25.
+          - Compete in CyberCup.IT and weekly CTF events with EPFL polygl0ts.
+
+      - name: SUI Blockchain Hackathon
+        summary: EPFL hackathon project for decentralized education-funding agreements.
+        url: https://github.com/ale18V/SUI-Hackathon
+        highlights:
+          - Won a $1,000 prize out of 50+ teams.
+          - Built smart contracts and a web frontend for equity tokens, scheduled payouts, and dividend sharing.
+
+      - name: AGN Compiler
+        summary: Compiler for a C-like programming language.
+        url: https://github.com/ale18V/AGN-Compiler
+        highlights:
+          - Implemented lexical analysis with Flex and parsing with Bison.
+
+      - name: Stock Price Predictor
+        summary: GPU programming class project implementing and accelerating a neural stock predictor.
+        url: https://github.com/ale18V/CudaStonks
+        highlights:
+          - Implemented the neural network in NumPy and PyTorch.
+          - Ported the algorithm to CUDA with Python Numba, reaching approximately 3x speedup over CPU.
+
+      - name: Parkinson's Disease Detector
+        summary: Audio classification project at EPFL LiGHT Laboratory.
+        highlights:
+          - Designed a transformer-based pipeline for Parkinson's disease detection from vowel phonation.
+          - Reached approximately 75% ROC-AUC on the mPower dataset, outperforming a CNN baseline by 15%.
+
+    Skills:
+      - name: Programming Languages
+        keywords: Go, Python, Java, C/C++, JavaScript, TypeScript, PHP, SQL, Bash, Solidity, Move
+      - name: Tools and Frameworks
+        keywords: Git, GitHub, Linux, Docker, Web3, FastAPI, Flask, React, Vite, React Native, OpenAPI, gRPC, MySQL
+      - name: Areas
+        keywords: Blockchain, federated learning, machine learning, cybersecurity, penetration testing, compilers, operating systems, network protocols
+
+    Languages:
+      - name: Italian
+        summary: Native
+      - name: English
+        summary: Cambridge C1
+      - name: French
+        summary: A2
+
+    Affiliations:
+      - name: EPFL Blockchain Student Association
+      - name: EPFL Cybersecurity Team, polygl0ts
