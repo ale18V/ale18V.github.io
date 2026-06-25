@@ -7,146 +7,163 @@ nav_order: 2
 description:
 ---
 
-<p class="cv-download">
-  <a href="{{ '/assets/pdf/Alessandro_Bombarda_CV.pdf' | relative_url }}"><strong>Download PDF</strong></a>
-</p>
+<div class="cv">
+  <section class="cv-card">
+    <h3>General Information</h3>
+    <dl class="cv-facts">
+      <dt>Email</dt>
+      <dd><a href="mailto:alebombarda@icloud.com">alebombarda@icloud.com</a></dd>
+      <dt>Location</dt>
+      <dd>Lausanne, Switzerland</dd>
+    </dl>
+  </section>
 
-<h2 class="section-title">General Information</h2>
-<dl class="compact-facts">
-  <dt>Email</dt>
-  <dd><a href="mailto:alebombarda@icloud.com">alebombarda@icloud.com</a></dd>
-  <dt>Location</dt>
-  <dd>Lausanne, Switzerland</dd>
-  <dt>Links</dt>
-  <dd>
-    <a href="https://ale18v.github.io/">Website</a> ·
-    <a href="https://github.com/ale18V">GitHub</a> ·
-    <a href="https://www.linkedin.com/in/alessandrobombarda/">LinkedIn</a>
-  </dd>
-</dl>
-
-<h2 class="section-title">Education</h2>
-<div class="cv-list">
-  <section class="cv-entry">
-    <div class="cv-date">2025 – 2027</div>
-    <div>
-      <h3>MSc Computer Science</h3>
-      <p class="institution"><a href="https://www.epfl.ch/">EPFL</a>, Lausanne</p>
-      <ul>
-        <li>Current GPA: 5.7/6.</li>
-        <li>EPFL Excellence Fellowship.</li>
-      </ul>
+  <section class="cv-card">
+    <h3>Education</h3>
+    <div class="cv-card-list">
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2025 - 2027</span></div>
+        <div>
+          <h4>MSc Computer Science</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> <a href="https://www.epfl.ch/">EPFL</a></p>
+          <ul>
+            <li>Current GPA: 5.7/6.</li>
+            <li>EPFL Excellence Fellowship.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2021 - 2024</span></div>
+        <div>
+          <h4>BSc Computer Engineering</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> <a href="https://www.unibo.it/">University of Bologna</a></p>
+          <ul>
+            <li>Final grade: 110/110 cum laude.</li>
+            <li>GPA: 29.38/30.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2024</span></div>
+        <div>
+          <h4>Exchange Student</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> University of California, Riverside</p>
+          <ul>
+            <li>GPA: 3.95/4.0.</li>
+          </ul>
+        </div>
+      </article>
     </div>
   </section>
-  <section class="cv-entry">
-    <div class="cv-date">2021 – 2024</div>
-    <div>
-      <h3>BSc Computer Engineering</h3>
-      <p class="institution"><a href="https://www.unibo.it/">University of Bologna</a></p>
-      <ul>
-        <li>110/110 cum laude; GPA 29.38/30.</li>
-      </ul>
+
+  <section class="cv-card">
+    <h3>Experience</h3>
+    <div class="cv-card-list">
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2026</span></div>
+        <div>
+          <h4>Incoming Software Engineer Intern</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Bending Spoons, Milan</p>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2025</span></div>
+        <div>
+          <h4>Research Engineer</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Asclepyus, Remote</p>
+          <ul>
+            <li>Led development of a production-ready federated learning platform for hospitals.</li>
+            <li>Designed its microservice architecture, observability stack, and CI/CD delivery.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2024 - 2025</span></div>
+        <div>
+          <h4>Full Stack Engineer</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Polarity, Reggio Emilia</p>
+          <ul>
+            <li>Built React Native and React products for a non-custodial wallet and cryptocurrency payment processor.</li>
+          </ul>
+        </div>
+      </article>
     </div>
   </section>
-  <section class="cv-entry">
-    <div class="cv-date">2024</div>
-    <div>
-      <h3>Exchange Student</h3>
-      <p class="institution">University of California, Riverside</p>
-      <ul>
-        <li>GPA: 3.95/4.0.</li>
-      </ul>
+
+  <section class="cv-card">
+    <h3>Honors and Awards</h3>
+    <div class="cv-card-list">
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2026</span></div>
+        <div>
+          <h4>First Ascent 2026</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Bending Spoons</p>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2025</span></div>
+        <div>
+          <h4>EPFL Excellence Fellowship</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> EPFL</p>
+          <ul>
+            <li>Fellowship supporting my master's studies at EPFL.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2025</span></div>
+        <div>
+          <h4>Sui Blockchain Hackathon Prize</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> EPFL</p>
+          <ul>
+            <li>Won a $1,000 prize for Bright Futures.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2x</span></div>
+        <div>
+          <h4>Merit Study Award</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> University of Bologna</p>
+          <ul>
+            <li>Two-time recipient.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="cv-card-entry">
+        <div><span class="cv-badge">2023</span></div>
+        <div>
+          <h4>CyberChallenge.IT National Finals</h4>
+          <p class="cv-institution"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> University of Bologna Team</p>
+          <ul>
+            <li>Top-eight finish in the national attack-and-defense competition.</li>
+          </ul>
+        </div>
+      </article>
     </div>
+  </section>
+
+  <section class="cv-card">
+    <h3>Skills</h3>
+    <dl class="cv-facts">
+      <dt>Programming</dt>
+      <dd>Go, Python, Java, C/C++, JavaScript, TypeScript, SQL, Bash, Solidity, Move</dd>
+      <dt>Tools</dt>
+      <dd>Linux, Docker, FastAPI, React, PyTorch, gRPC, RabbitMQ, GitHub Actions</dd>
+      <dt>Areas</dt>
+      <dd>Distributed systems, machine learning, blockchain, cybersecurity, compilers</dd>
+    </dl>
+  </section>
+
+  <section class="cv-card">
+    <h3>Languages</h3>
+    <dl class="cv-facts">
+      <dt>Italian</dt>
+      <dd>Native speaker</dd>
+      <dt>English</dt>
+      <dd>Fluent (Cambridge C1)</dd>
+      <dt>French</dt>
+      <dd>Beginner (A2)</dd>
+    </dl>
   </section>
 </div>
-
-<h2 class="section-title">Experience</h2>
-<div class="cv-list">
-  <section class="cv-entry">
-    <div class="cv-date">2026</div>
-    <div>
-      <h3>Incoming Software Engineer Intern</h3>
-      <p class="institution">Bending Spoons · Milan, Italy</p>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2025</div>
-    <div>
-      <h3>Research Engineer</h3>
-      <p class="institution">Asclepyus · Remote</p>
-      <ul>
-        <li>Led development of a production-ready federated learning platform for hospitals.</li>
-        <li>Designed its microservice architecture, observability stack, and CI/CD delivery.</li>
-      </ul>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2024 – 2025</div>
-    <div>
-      <h3>Full Stack Engineer</h3>
-      <p class="institution">Polarity · Reggio Emilia, Italy</p>
-      <ul>
-        <li>Built React Native and React products for a non-custodial wallet and cryptocurrency payment processor.</li>
-      </ul>
-    </div>
-  </section>
-</div>
-
-<h2 class="section-title">Honors & Awards</h2>
-<div class="cv-list">
-  <section class="cv-entry">
-    <div class="cv-date">2026</div>
-    <div>
-      <h3>First Ascent</h3>
-      <p class="institution">Bending Spoons</p>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2025</div>
-    <div>
-      <h3>EPFL Excellence Fellowship</h3>
-      <p class="institution">École Polytechnique Fédérale de Lausanne</p>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2025</div>
-    <div>
-      <h3>$1,000 Prize, Sui Blockchain Hackathon</h3>
-      <p class="institution">EPFL</p>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2×</div>
-    <div>
-      <h3>Merit Study Award</h3>
-      <p class="institution">University of Bologna</p>
-    </div>
-  </section>
-  <section class="cv-entry">
-    <div class="cv-date">2023</div>
-    <div>
-      <h3>Top 8, CyberChallenge.IT National Finals</h3>
-      <p class="institution">University of Bologna Team</p>
-    </div>
-  </section>
-</div>
-
-<h2 class="section-title">Skills</h2>
-<dl class="compact-facts">
-  <dt>Languages</dt>
-  <dd>Go, Python, Java, C/C++, JavaScript, TypeScript, SQL, Bash, Solidity, Move</dd>
-  <dt>Tools</dt>
-  <dd>Linux, Docker, FastAPI, React, PyTorch, gRPC, RabbitMQ, GitHub Actions</dd>
-  <dt>Areas</dt>
-  <dd>Distributed systems, machine learning, blockchain, cybersecurity, compilers</dd>
-</dl>
-
-<h2 class="section-title">Languages</h2>
-<dl class="compact-facts">
-  <dt>Italian</dt>
-  <dd>Native</dd>
-  <dt>English</dt>
-  <dd>Cambridge C1</dd>
-  <dt>French</dt>
-  <dd>A2</dd>
-</dl>

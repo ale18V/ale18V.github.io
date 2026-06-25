@@ -134,53 +134,93 @@ body {
   white-space: nowrap;
 }
 
-.cv-download {
-  margin: 0 0 1.8rem;
+.cv {
+  margin-bottom: 2.5rem;
 }
 
-.cv-entry {
-  display: grid;
-  grid-template-columns: 115px minmax(0, 1fr);
-  gap: 1.4rem;
-  padding: 0.9rem 0;
+.cv-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--portfolio-rule);
+  border-radius: 0.25rem;
+  background-color: var(--global-card-bg-color);
 }
 
-.cv-date {
-  color: var(--portfolio-muted);
-  font-variant-numeric: tabular-nums;
+.cv-card > h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
-.cv-entry h3 {
+.cv-card-list {
   margin: 0;
+}
+
+.cv-card-entry {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--portfolio-rule);
+}
+
+.cv-card-entry:first-child {
+  border-top: 0;
+  padding-top: 0.4rem;
+}
+
+.cv-badge {
+  display: inline-block;
+  min-width: 75px;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--global-theme-color);
+  color: var(--global-card-bg-color) !important;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cv-card-entry h4 {
+  margin: 0 0 0.2rem;
   font-size: 1rem;
-  font-weight: 650;
+  font-weight: 700;
 }
 
-.cv-entry .institution {
-  margin: 0.1rem 0 0.35rem;
+.cv-institution {
+  margin: 0 0 0.35rem;
 }
 
-.cv-entry ul {
+.cv-institution i {
+  width: 1.15rem;
+  color: var(--portfolio-muted);
+  text-align: center;
+}
+
+.cv-card-entry ul {
   margin: 0.35rem 0 0;
-  padding-left: 1.2rem;
+  padding-left: 1.4rem;
 }
 
-.cv-entry p:last-child,
-.cv-entry ul:last-child {
+.cv-card-entry p:last-child,
+.cv-card-entry ul:last-child {
   margin-bottom: 0;
 }
 
-.compact-facts {
+.cv-facts {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
   gap: 0.35rem 1rem;
+  margin: 0;
 }
 
-.compact-facts dt {
+.cv-facts dt {
   font-weight: 650;
 }
 
-.compact-facts dd {
+.cv-facts dd {
   margin: 0;
 }
 
@@ -197,16 +237,24 @@ footer.sticky-bottom {
   }
 
   .project-item,
-  .cv-entry {
+  .cv-card-entry {
     grid-template-columns: 1fr;
     gap: 0.2rem;
   }
 
-  .compact-facts {
+  .cv-card-entry {
+    padding: 1rem 0;
+  }
+
+  .cv-card-entry > div:first-child {
+    margin-bottom: 0.45rem;
+  }
+
+  .cv-facts {
     grid-template-columns: 1fr;
   }
 
-  .compact-facts dd {
+  .cv-facts dd {
     margin-bottom: 0.6rem;
   }
 }
