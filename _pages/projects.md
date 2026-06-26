@@ -13,7 +13,7 @@ nav_order: 3
     <li class="project-item">
       <div class="project-name"><a href="{{ '/projects/banditdl/' | relative_url }}">BanditDL</a></div>
       <div class="project-description">
-        Adaptive neighbor sampling for decentralized learning using combinatorial semi-bandits.
+        Adaptive neighbor sampling for communication-efficient decentralized learning.
         <span class="project-links"><a href="{{ '/assets/pdf/BanditDL_Report.pdf' | relative_url }}">Report</a> · <a href="https://github.com/ale18V/BanditDL">GitHub</a></span>
       </div>
     </li>

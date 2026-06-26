@@ -1,13 +1,13 @@
 ---
 layout: page
 title: BanditDL
-description: Adaptive neighbor sampling in decentralized learning.
+description: Communication-efficient neighbor sampling in decentralized learning.
 importance: 1
 ---
 
-BanditDL is an EPFL Optimization for Machine Learning project investigating whether adaptive neighbor selection can improve decentralized learning under a fixed communication budget.
+Uniformly sampling a small number of peers is a strong baseline for communication-efficient decentralized learning: it reduces message complexity while retaining convergence and robustness guarantees. BanditDL asks whether adaptive neighbor sampling can improve on this baseline under heterogeneous data, without increasing the communication budget.
 
-The project models peer selection as a combinatorial semi-bandit and compares uniform sampling with ε-greedy, EXP3, combinatorial UCB, combinatorial Thompson sampling, and discounted variants across several heterogeneous data partitions.
+The project models peer selection as a combinatorial semi-bandit problem and compares uniform sampling with ε-greedy, EXP3, combinatorial UCB, combinatorial Thompson sampling, and discounted variants across several heterogeneous data partitions. The experiments show a personalization-generalization frontier: adaptive samplers can exploit latent structure, but aggressive in-cluster sampling does not always improve global performance.
 
 <p>
   <a href="{{ '/assets/pdf/BanditDL_Report.pdf' | relative_url }}"><strong>Read the report</strong></a>
