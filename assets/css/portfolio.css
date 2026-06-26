@@ -231,6 +231,15 @@ footer.sticky-bottom {
   box-shadow: none;
 }
 
+.profile figure {
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+.profile figure img {
+  transform: scale(1.1);
+}
+
 @media (max-width: 640px) {
   .post-title {
     font-size: 1.9rem;
