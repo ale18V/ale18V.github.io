@@ -258,3 +258,10 @@ footer.sticky-bottom {
     margin-bottom: 0.6rem;
   }
 }
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    width: min(240px, 70%);
+    margin: 0 auto 1.5rem;
+  }
+}

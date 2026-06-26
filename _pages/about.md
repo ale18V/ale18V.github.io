@@ -3,7 +3,11 @@ layout: about
 title: About
 permalink: /
 subtitle: MSc Computer Science @ EPFL
-profile: false
+profile:
+  align: right
+  image: profile.jpg
+  image_circular: false
+  more_info:
 selected_papers: false
 social: true
 announcements:
